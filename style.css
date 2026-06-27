@@ -19,7 +19,7 @@ body{
 body i{
     color:#D6C6A8;
 }
-/* Background Glow */
+
 
 body::before{
     content:"";
@@ -44,8 +44,6 @@ body::after{
     bottom:-120px;
     right:-120px;
 }
-
-/* Container */
 
 .container{
 
@@ -83,7 +81,6 @@ box-shadow:
 
 }
 
-/* Heading */
 
 .container h2{
 
@@ -101,7 +98,6 @@ letter-spacing:1px;
 
 }
 
-/* Labels */
 
 .amount p,
 .from p,
@@ -115,7 +111,6 @@ margin-bottom:8px;
 
 }
 
-/* Input */
 
 .amount input{
 
@@ -235,8 +230,6 @@ color:black;
 
 }
 
-/* Message */
-
 .msg{
 
 margin:25px 0;
@@ -264,8 +257,6 @@ transition:.35s;
 background:#2f2f2f;
 
 }
-
-/* Button */
 
 button{
 
@@ -311,8 +302,6 @@ transform:scale(.97);
 
 }
 
-/* Fade Animation */
-
 @keyframes fadeUp{
 
 from{
@@ -333,7 +322,6 @@ transform:translateY(0);
 
 }
 
-/* Responsive */
 
 @media(max-width:500px){
 
